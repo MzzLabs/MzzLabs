@@ -1,6 +1,11 @@
-<!-- Mzz Labs GitHub profile V7: bilingual product overview, GitHub-compatible HTML/Markdown, SVG snake and live stats. -->
+<!-- Mzz Labs GitHub Profile V8: English and French complete views in one README. -->
+<!-- Native exclusive details groups, if GitHub preserves the grouping attribute. -->
+
+<details name="mzz-profile-language" open>
+<summary><strong>🇬🇧 English · Default presentation</strong></summary>
+
 <div align="center">
-  <img src="./assets/mzzlabs-wordmark.gif" width="92%" alt="Mzz Labs — independent development team. Transparent animated typewriter wordmark." />
+  <img src="./assets/mzzlabs-wordmark.gif" width="92%" alt="Mzz Labs animated typewriter wordmark" />
   <p><strong>Independent development team · AI engineering · Creative software</strong></p>
   <p>Building intelligent tools and thoughtful digital experiences, from AI systems to creative engineering.</p>
   <p>
@@ -9,51 +14,6 @@
     <img alt="Team" src="https://img.shields.io/badge/Team-independent-BE6C51?style=flat-square" />
   </p>
 </div>
-
-
-<details>
-<summary><strong>🇫🇷 Lire la présentation en français</strong></summary>
-
-### Mzz Labs
-
-**Mzz Labs** est une équipe de développement indépendante qui imagine et construit des outils à la croisée de **l'intelligence artificielle, de l'ingénierie logicielle, de la recherche technique et des expériences numériques**.
-
-Nous travaillons sur les **harness IA**, les agents et sous-agents, l'orchestration, l'inférence, le deep learning, les applications web et desktop, la rétro-ingénierie, l'automatisation, le gaming et le modding. Notre démarche associe développement, UI/UX et exploration des systèmes. **Des agents IA participent également aux travaux de Mzz Labs**, notamment pour la recherche, la programmation et l'automatisation de tâches.
-
-La plupart de nos projets restent **privés**. Nous présentons ici leur orientation et des aperçus sélectionnés, sans publier leurs sources internes.
-
-### MazzAI · Projet principal
-
-**MazzAI** est un **harness IA** et un espace de travail desktop en développement privé. Sa base technique dérive du **code source open source et de l'architecture agentique d'[OpenCode](https://github.com/anomalyco/opencode)**, profondément adaptés et enrichis par nos **composants, nos fonctionnalités, notre interface et notre vision produit**. Nous nous inspirons aussi de l'expérience de développement agentique de **Claude Code** et **OpenAI Codex**, tout en développant une identité et un fonctionnement propres à MazzAI. MazzAI est un projet indépendant, sans affiliation officielle avec ces produits.
-
-Le but n'est pas seulement de discuter avec une IA : MazzAI réunit **conversation, exécution agentique, outils, orchestration et continuité du contexte** au sein d'une même application. Son interface privilégie une expérience structurée et lisible, avec des réponses riches inspirées des interfaces conversationnelles modernes.
-
-| Domaine | Ce que MazzAI rassemble |
-|:--|:--|
-| **Harness & exécution** | Socle agentique adapté d'OpenCode, orchestration des tâches et des outils, extensions propres à MazzAI. |
-| **Modes de travail** | **Chat** conversationnel, **Agent / Auto** pour l'exécution outillée, **Build** pour les changements et **Plan** pour l'analyse et la planification. |
-| **Interface enrichie** | Présentation des réponses avec structure, cartes, icônes et retours d'outils, dans un esprit proche des interfaces de chat modernes. |
-| **Agents & observabilité** | Agents principaux, sous-agents, délégation, sessions multiples, suivi d'exécution et visualisation hiérarchique des workflows. |
-| **Permissions** | Contrôle granulaire des outils, autorisations et exécution supervisée. |
-| **Modèles & inférence** | Plusieurs fournisseurs et modèles, avec une orientation vers les options hébergées ou locales selon les intégrations disponibles. |
-| **Mémoire & contexte** | Mémoire de conversation, continuité entre sessions et contexte persistant personnalisable. |
-| **Tooling** | Terminal, navigateur, automatisations, MCP et connexions aux environnements de développement et au système. |
-| **Cloud & connectivité** | Extensions connectées et scénarios hybrides envisagés autour de l'environnement local-first. |
-
-**Applications mobiles — feuille de route :** des clients **Android** et **iOS** sont envisagés pour prolonger l'écosystème MazzAI. La distribution iOS en dehors de l'App Store, notamment par *sideloading* avec **SideStore**, fait partie des pistes étudiées ; aucune application mobile publique ni compatibilité finale n'est annoncée à ce stade.
-
-**État du produit :** l'application desktop est en développement privé. Certaines capacités sont utilisables ou en cours d'intégration, tandis que d'autres — notamment la visualisation avancée, des intégrations cloud et le mobile — appartiennent encore à la feuille de route. **La capture réelle de MazzAI Desktop est présentée plus bas.**
-
-### Technologies
-
-Nos outils incluent **Python, TypeScript, React, SolidJS, Node.js, Bun, Electron, Windows, Linux et WSL2**, ainsi que les technologies d'IA et de rétro-ingénierie. Les badges ci-dessous présentent une stack et des domaines d'intérêt, et **non des pourcentages d'utilisation mesurés**.
-
-### Statistiques GitHub
-
-Les cartes publiques s'appuient sur des services tiers, avec d'éventuelles limites de cache ou de disponibilité. Le serpent animé SVG peut être régénéré depuis les contributions publiques par GitHub Actions.
-
-</details>
-
 
 ## Mzz Labs
 
@@ -72,7 +32,6 @@ Many of our projects remain **private**. This profile shares our direction and s
 | **Reverse engineering** | Software internals, interoperability, compatibility analysis and systems research |
 | **Automation & systems** | Python utilities, tool integrations, browser workflows, Windows, Linux and WSL2 |
 | **Gaming & modding** | Game tools, mods, experimentation and interactive experiences |
-
 
 ## Featured project · MazzAI
 
@@ -117,7 +76,6 @@ MazzAI's long-term vision extends beyond desktop, with **Android and iOS compani
   <img src="./assets/mazzai-desktop.png" width="96%" alt="Real MazzAI Code desktop application screenshot: dark theme, left navigation with sessions and central conversational workspace." />
   <p><sub>Real MazzAI desktop interface · Private work in progress · Design and features may evolve.</sub></p>
 </div>
-
 
 ## Stack · full volume
 
@@ -188,6 +146,155 @@ MazzAI's long-term vision extends beyond desktop, with **Android and iOS compani
   <p><sub>SVG animation generated from the public contribution grid. Run the included GitHub Action once to replace the initial snapshot with your current real activity.</sub></p>
 </div>
 
+<div align="center"><sub>Mzz Labs · Private-first development · Selected public previews</sub></div>
+
+</details>
+
+<details name="mzz-profile-language">
+<summary><strong>🇫🇷 Français · Lire la présentation complète</strong></summary>
+
 <div align="center">
-  <sub>Mzz Labs · Private-first development · Selected public previews</sub>
+  <img src="./assets/mzzlabs-wordmark-fr.gif" width="92%" alt="Mzz Labs, animation du nom de l'équipe au clavier" />
+  <p><strong>Équipe de développement indépendante · Ingénierie IA · Logiciels créatifs</strong></p>
+  <p>Nous créons des outils intelligents et des expériences numériques soignées, des systèmes d'IA à l'ingénierie créative.</p>
+  <p>
+    <a href="https://github.com/MzzLabs"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-MzzLabs-21262D?style=flat-square&amp;logo=github&amp;logoColor=white" /></a>
+    <img alt="Projets privés" src="https://img.shields.io/badge/Développement-projets%20privés-8A3447?style=flat-square" />
+    <img alt="Équipe indépendante" src="https://img.shields.io/badge/Équipe-indépendante-BE6C51?style=flat-square" />
+  </p>
 </div>
+
+## Mzz Labs
+
+**Mzz Labs** est une équipe de développement indépendante qui conçoit des logiciels à la rencontre de **l'intelligence artificielle, de l'ingénierie logicielle, de la recherche technique et de la création numérique**.
+
+Nous associons l'expérimentation au développement concret : comprendre les systèmes en profondeur, relier des technologies complémentaires et transformer des idées ambitieuses en outils utiles et bien conçus. Notre travail englobe **les systèmes agentiques, l'automatisation, les applications web et desktop, la rétro-ingénierie, les jeux vidéo et le modding**. **Des agents IA participent aux projets Mzz Labs**, sous notre direction, pour la recherche, le développement, le débogage et l'automatisation de tâches.
+
+La plupart de nos projets restent **privés**. Ce profil présente notre vision et quelques aperçus, sans exposer les codes sources ou les détails internes.
+
+### Nos domaines d'activité
+
+| Domaine | Ce que nous développons et étudions |
+|:--|:--|
+| **Intelligence artificielle** | Harness IA, agents autonomes, orchestration, inférence, apprentissage profond, mémoire et contexte persistants |
+| **Ingénierie logicielle** | Applications desktop et web, API, outils de développement, architecture, UI/UX |
+| **Rétro-ingénierie** | Fonctionnement interne des logiciels, interopérabilité, compatibilité et recherche sur les systèmes |
+| **Automatisation et systèmes** | Outils Python, intégrations, automatisation du navigateur, Windows, Linux et WSL2 |
+| **Jeux vidéo et modding** | Outils liés aux jeux, mods, expérimentations et expériences interactives |
+
+## Projet vedette · MazzAI
+
+<div align="center">
+  <img src="./assets/mazzai-feature-fr.gif" width="95%" alt="MazzAI, son logo blanc et une animation présentant son écosystème" />
+  <p><strong>Écosystème IA centré sur le Harness · Application desktop · Développement privé</strong></p>
+</div>
+
+### Fondé sur OpenCode. Conçu selon notre propre vision.
+
+**MazzAI** est un **harness IA et un espace de travail desktop indépendant**, fondé sur un socle personnalisé dérivé du **[code source open source et de l'architecture agentique d'OpenCode](https://github.com/anomalyco/opencode)**. Mzz Labs ne se limite pas à en modifier l'apparence : nous adaptons et enrichissons cette base avec **nos propres composants, notre interface, nos workflows et notre vision produit**.
+
+Notre approche s'inspire également des expériences de développement agentique de **Claude Code** et d'**OpenAI Codex**, sans affiliation officielle avec ces produits. MazzAI possède sa propre identité graphique et ses propres objectifs.
+
+Nous voulons réunir le parcours complet de l'IA dans un même environnement : conversation naturelle, utilisation supervisée des outils, exécution multi-agents, contexte persistant et automatisations pour le développement. L'interface s'inspire des expériences de conversation structurées modernes, avec des réponses enrichies, des icônes, des éléments visuels et des retours d'outils lisibles.
+
+### Au cœur de l'écosystème MazzAI
+
+| Système | Capacités et orientations |
+|:--|:--|
+| **Harness et moteur d'exécution** | Base agentique dérivée d'OpenCode, flux d'exécution adaptés, coordination des tâches et extensions propres à MazzAI. |
+| **Chat, Agent et Auto** | Mode conversationnel distinct des sessions agentiques équipées d'outils et des workflows automatisés. |
+| **Build et Plan** | Exécution et implémentation des tâches, analyse, planification et vérification avant modification. |
+| **Interface conversationnelle enrichie** | Réponses structurées, icônes, composants visuels, retours d'outils et expérience inspirée des interfaces de chat modernes. |
+| **Agents et sous-agents** | Délégation, tâches imbriquées, sessions multiples, agents spécialisés et coordination des workflows. |
+| **Observabilité des sessions** | Suivi de l'activité agentique, visibilité sur l'exécution et visualisation hiérarchique des sessions et délégations en développement. |
+| **Permissions avancées** | Autorisations granulaires des outils, exécution supervisée et limites de permission configurables. |
+| **Inférence multi-fournisseurs** | Choix de fournisseurs et de modèles, avec intégrations hébergées ou locales lorsqu'elles sont disponibles. |
+| **Mémoire et contexte** | Mémoire des conversations, continuité entre sessions, connaissances et contexte persistant personnalisables. |
+| **Outils de développement** | Terminal, navigateur, automatisation, MCP, Computer Use et intégrations Windows/Linux. |
+| **Priorité au local et connectivité** | Environnement local-first complété progressivement par des services connectés et des workflows hybrides ou cloud. |
+
+### Écosystème mobile · Feuille de route
+
+À terme, MazzAI doit s'étendre au-delà du desktop avec des **applications complémentaires Android et iOS** reliées à l'espace de travail. Sur iOS, une distribution par des outils de *sideloading* comme **SideStore** est étudiée, sans être présentée comme une fonctionnalité déjà disponible. **Aucune version mobile publique ni méthode de distribution définitive n'est annoncée pour le moment.**
+
+<sub>**État du développement :** MazzAI Desktop est développé en privé. Certaines capacités sont utilisables ou en cours d'intégration ; d'autres — notamment les visualisations avancées de l'orchestration, certaines intégrations cloud et les clients mobiles — sont encore prévues ou en développement. Cette présentation décrit l'écosystème, et non une liste de fonctions déjà publiées.</sub>
+
+### Aperçu de l'application · MazzAI Code
+
+<div align="center">
+  <img src="./assets/mazzai-desktop.png" width="96%" alt="Véritable capture de MazzAI Code avec thème sombre, barre latérale des sessions et interface de conversation." />
+  <p><sub>Interface desktop réelle · Projet privé en cours de développement · Apparence et fonctionnalités susceptibles d'évoluer.</sub></p>
+</div>
+
+## Technologies et outils
+
+<sub>Outils, langages et domaines d'intérêt — ni classement, ni pourcentages d'utilisation mesurés.</sub>
+
+<h4>Interfaces et frontend</h4>
+<p align="left">
+<img src="https://img.shields.io/badge/React-149ECA?style=for-the-badge&amp;logo=react&amp;logoColor=white" alt="React" height="27" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="27" />
+<img src="https://img.shields.io/badge/JavaScript-56530B?style=for-the-badge&amp;logo=javascript&amp;logoColor=white" alt="JavaScript" height="27" />
+<img src="https://img.shields.io/badge/Tailwind%20CSS-087E8B?style=for-the-badge&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS" height="27" />
+<img src="https://img.shields.io/badge/HTML5-AD4222?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5" height="27" />
+<img src="https://img.shields.io/badge/CSS3-20559A?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3" height="27" />
+<img src="https://img.shields.io/badge/SolidJS-345B9A?style=for-the-badge&amp;logo=solid&amp;logoColor=white" alt="SolidJS" height="27" />
+<img src="https://img.shields.io/badge/UI%2FUX-3A5267?style=for-the-badge&amp;logo=figma&amp;logoColor=white" alt="UI/UX" height="27" />
+</p>
+<h4>Backend et automatisation</h4>
+<p align="left">
+<img src="https://img.shields.io/badge/Python-2F5E88?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" height="27" />
+<img src="https://img.shields.io/badge/Node.js-397A3B?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" height="27" />
+<img src="https://img.shields.io/badge/Bun-626262?style=for-the-badge&amp;logo=bun&amp;logoColor=white" alt="Bun" height="27" />
+<img src="https://img.shields.io/badge/Git-B0482D?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" height="27" />
+<img src="https://img.shields.io/badge/API-45566F?style=for-the-badge" alt="APIs" height="27" />
+<img src="https://img.shields.io/badge/Automatisation-7A4865?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="Automatisation" height="27" />
+</p>
+<h4>IA et systèmes agentiques</h4>
+<p align="left">
+<img src="https://img.shields.io/badge/Harness%20IA-862D42?style=for-the-badge" alt="Harness IA" height="27" />
+<img src="https://img.shields.io/badge/Agents-A14C35?style=for-the-badge" alt="Agents" height="27" />
+<img src="https://img.shields.io/badge/MCP-4B536B?style=for-the-badge" alt="MCP" height="27" />
+<img src="https://img.shields.io/badge/Inférence-79563D?style=for-the-badge" alt="Inférence" height="27" />
+<img src="https://img.shields.io/badge/Mémoire-7B4B7C?style=for-the-badge" alt="Mémoire" height="27" />
+<img src="https://img.shields.io/badge/Apprentissage%20profond-4E3C86?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="Apprentissage profond" height="27" />
+<img src="https://img.shields.io/badge/Ollama-383838?style=for-the-badge&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="27" />
+<img src="https://img.shields.io/badge/NVIDIA%20CUDA-427820?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA CUDA" height="27" />
+</p>
+<h4>Systèmes et création</h4>
+<p align="left">
+<img src="https://img.shields.io/badge/Electron-3E5173?style=for-the-badge&amp;logo=electron&amp;logoColor=white" alt="Electron" height="27" />
+<img src="https://img.shields.io/badge/Windows-1563B7?style=for-the-badge&amp;logo=windows11&amp;logoColor=white" alt="Windows" height="27" />
+<img src="https://img.shields.io/badge/Linux-67572F?style=for-the-badge&amp;logo=linux&amp;logoColor=white" alt="Linux" height="27" />
+<img src="https://img.shields.io/badge/Docker-0868A6?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" height="27" />
+<img src="https://img.shields.io/badge/WSL2-555E69?style=for-the-badge&amp;logo=ubuntu&amp;logoColor=white" alt="WSL2" height="27" />
+<img src="https://img.shields.io/badge/Rétro--ingénierie-85384E?style=for-the-badge" alt="Rétro-ingénierie" height="27" />
+<img src="https://img.shields.io/badge/Jeu%20vidéo-2C5D54?style=for-the-badge&amp;logo=steam&amp;logoColor=white" alt="Jeu vidéo" height="27" />
+<img src="https://img.shields.io/badge/Modding-603780?style=for-the-badge" alt="Modding" height="27" />
+</p>
+
+## Statistiques GitHub
+
+<table>
+<tr>
+<td width="53%" valign="top">
+<a href="https://github.com/MzzLabs"><img width="100%" alt="Statistiques publiques GitHub de MzzLabs" src="https://github-readme-stats.vercel.app/api?username=MzzLabs&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=github_dark&amp;locale=fr&amp;title_color=ff6377&amp;icon_color=ff6377&amp;text_color=c9d1d9&amp;bg_color=0d1117" /></a>
+</td>
+<td width="47%" valign="top">
+<a href="https://github.com/MzzLabs"><img width="100%" alt="Séries actuelles et records de contributions GitHub de MzzLabs" src="https://streak-stats.demolab.com?user=MzzLabs&amp;locale=fr&amp;theme=dark&amp;hide_border=true&amp;background=0D1117&amp;ring=F46B78&amp;fire=FFBB57&amp;currStreakLabel=FFBB57" /></a>
+</td>
+</tr>
+</table>
+
+<sub>Ces cartes chargent des données GitHub publiques au moyen de services tiers. Elles peuvent être temporairement indisponibles ou différer des activités réalisées en privé et hors ligne.</sub>
+
+## Serpent des contributions
+
+<div align="center">
+  <img src="./assets/contribution-snake-fr.svg" width="100%" alt="Serpent SVG animé traversant le calendrier GitHub des contributions MzzLabs, actualisable par GitHub Actions." />
+  <p><sub>Animation SVG générée à partir des contributions publiques. Le workflow GitHub Actions inclus peut la mettre à jour avec l'activité actuelle.</sub></p>
+</div>
+
+<div align="center"><sub>Mzz Labs · Développement privilégiant les projets privés · Aperçus publics sélectionnés</sub></div>
+
+</details>
