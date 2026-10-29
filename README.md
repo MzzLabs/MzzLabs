@@ -1,115 +1,94 @@
 <div align="center">
 
-<img src="./assets/mzzlabs-hero.gif" alt="Mzz Labs — animated typewriter banner" width="100%" />
-
-<br />
+<img src="./assets/mzzlabs-hero.gif" width="100%" alt="Mzz Labs logo with a transparent, looping typewriter title animation" />
 
 **Independent development team · AI engineering · Creative software**
 
-Building practical technology at the intersection of **artificial intelligence, software engineering and interactive experiences**.
-
-`BUILD` &nbsp; `EXPLORE` &nbsp; `ENGINEER` &nbsp; `REFINE`
+We build intelligent tools, explore complex systems, and design digital experiences where powerful technology meets thoughtful interfaces.
 
 </div>
-
----
 
 ## Mzz Labs
 
-**Mzz Labs** is an independent development team focused on exploring and creating intelligent software, developer tools and ambitious digital experiences.
+**Mzz Labs** is an independent development team focused on **artificial intelligence, software engineering, research and creative technology**. We approach development as both a practical discipline and a space for experimentation: understanding systems deeply, connecting different tools, and turning ambitious ideas into usable products.
 
-Our work crosses several disciplines: **AI systems, agentic workflows, full-stack and desktop development, reverse engineering, automation, UI/UX, gaming and modding**. We enjoy understanding how complex technologies work under the hood, connecting them in useful ways and designing interfaces that make powerful capabilities approachable.
+Our interests span **AI harnesses, autonomous agents, orchestration, deep learning, full-stack and desktop applications, reverse engineering, automation, gaming and modding**. We care about the details behind the interface as much as the experience in front of it — from system behavior and interoperability to clear, carefully considered UI/UX.
 
-We value experimentation, technical curiosity, thoughtful product design and practical results. Many of our projects are developed privately; we share selected previews, research directions and public-facing work as they become ready.
+Most of our projects are developed privately. This profile is a place to share our direction, selected product previews, and public work as it becomes ready.
 
-### What we explore
+### Areas of exploration
 
-| Focus | Areas of interest |
+| Field | What we focus on |
 | :--- | :--- |
-| **Artificial Intelligence** | AI harnesses, agents, model inference, deep learning, orchestration and context-aware systems |
-| **Software Engineering** | Desktop applications, web experiences, APIs, architecture and developer tooling |
-| **Reverse Engineering & Research** | Software internals, interoperability, compatibility analysis, system behavior and custom tools |
-| **Automation** | Python utilities, browser workflows, scripts, tool integration and repeatable processes |
-| **Gaming & Modding** | Mods, gameplay experimentation, technical tooling and creative game experiences |
-| **Systems & Platforms** | Windows, Linux, WSL2, local environments and cross-platform experimentation |
+| **AI & intelligent systems** | Harnesses, model inference, agent orchestration, deep learning, memory and context-aware workflows |
+| **Software engineering** | Desktop and web applications, APIs, tooling, product design and developer experience |
+| **Reverse engineering** | Software internals, architecture, compatibility, interoperability and technical research |
+| **Automation & infrastructure** | Python tooling, connected services, browser automation, Linux, Windows and WSL2 |
+| **Gaming & modding** | Game tools, mods, experimentation and interactive experiences |
 
----
-
-## Featured project · MazzAI
+## Featured project — MazzAI
 
 <div align="center">
 
-<img src="./assets/mazzai-feature.gif" alt="MazzAI — white icon and automatic typewriter animation" width="100%" />
+<img src="./assets/mazzai-feature.gif" width="100%" alt="MazzAI white icon, animated typewriter title and the Harness, Chat, Agents, Inference, Memory, Cloud and Tooling ecosystem" />
 
-**AI Harness · Conversational workspace · Agentic execution**
+**Harness-first AI ecosystem · Desktop workspace · Private development**
 
 </div>
 
-**MazzAI** is our private, harness-first AI ecosystem: a desktop workspace designed to connect conversation, intelligent agents, models and tools in a coherent experience. It explores how AI can move naturally from answering questions to coordinating complex, multi-step workflows.
+**MazzAI** is our evolving **AI harness and desktop workspace**: an environment built to bring conversations, AI agents, inference, persistent context and development tools together in one coherent experience.
 
-The emphasis is on **flexible orchestration, transparent execution, usable interfaces and control over the development environment** — rather than treating an assistant as an isolated chat window.
+The core idea is **more than chat**. MazzAI explores a system in which an assistant can help reason through a problem, coordinate specialized agents, use tools, preserve context and make complex execution understandable through a considered interface. Its design follows a **local-first** philosophy while leaving room for connected and hybrid workflows.
 
-### The MazzAI ecosystem
+### Inside the ecosystem
 
-| Pillar | Direction |
+| Pillar | Role |
 | :--- | :--- |
-| **01 · Harness** | The core environment for coordinating capabilities, execution and AI-powered workflows |
-| **02 · Chat** | Natural conversations with context, supervision and a clean user experience |
-| **03 · Agents** | Task delegation, specialized sub-agents and multi-session orchestration |
-| **04 · Inference** | Model integrations, reasoning, provider flexibility and inference workflows |
-| **05 · Memory** | Persistent context, continuity and reusable information across sessions |
-| **06 · Cloud** | Connected services and future remote or hybrid workflows |
-| **07 · Tooling** | Terminal, browser, development tools, integrations and extensible capabilities |
+| **Harness** | The central environment for coordinating execution, capabilities and workflows |
+| **Chat** | Natural conversation, contextual assistance and supervised interaction |
+| **Agents** | Delegation, sub-agents, task coordination and multi-session workflows |
+| **Inference** | Model/provider integrations, reasoning and flexible inference options |
+| **Memory** | Persistent context, long-running continuity and reusable knowledge |
+| **Cloud** | Connected services and research into remote or hybrid environments |
+| **Tooling** | Developer tools, terminal, browser automation and extensible integrations |
 
-### Product design & capabilities
+### Product experience
 
-- **Two complementary experiences:** conversation-focused chat and tool-enabled agentic workflows.
-- **Agent orchestration:** supervised task delegation, sessions and specialized agents.
-- **Observability:** exploring clearer visual relationships between tasks, agents and execution.
-- **Context & memory:** continuity across longer workflows and recurring activities.
-- **Desktop environment:** a clean interface for complex AI operations, with local-first principles.
-- **Extensible tooling:** developer tools, browser workflows, automation and connector-oriented integrations.
+MazzAI currently brings together a **conversational workspace** and a **tool-enabled agentic experience**, with a focus on useful orchestration rather than a collection of isolated features. Work also includes clearer session navigation, agent observability, memory, integrated tooling and a desktop UI that keeps advanced workflows approachable.
 
-> **Development status:** MazzAI is actively evolving in private. Some ecosystem directions are experimental or planned; the table above is not a public feature-availability guarantee.
+The ecosystem is under active private development. Some capabilities and platform integrations are exploratory or planned rather than publicly available.
 
 ### Desktop preview
 
 <div align="center">
 
-<img src="./assets/mazzai-desktop.png" alt="Actual MazzAI Code desktop interface — dark theme, sessions sidebar and central chat composer" width="100%" />
+<img src="./assets/mazzai-desktop.png" width="100%" alt="Actual MazzAI Code desktop application: dark interface, session sidebar and conversational workspace" />
 
-<sub>Actual MazzAI desktop application preview · Interface and features may change during development.</sub>
+<sub>Actual MazzAI desktop interface · Work in progress · Design and capabilities may evolve.</sub>
 
 </div>
 
----
+## Engineering, research & creative work
 
-## Engineering & technology
+We combine different technologies depending on the problem, with an emphasis on practical engineering, experimentation and maintainable interfaces.
 
-Our toolset evolves with each experiment. Current projects and areas of exploration include:
+**Languages & frameworks:** `Python` · `TypeScript` · `JavaScript` · `React` · `SolidJS` · `HTML/CSS` · `Tailwind CSS`
 
-**Languages & frameworks:** `TypeScript` · `JavaScript` · `Python` · `HTML/CSS` · `React` · `SolidJS` · `Node.js` · `Tailwind CSS`
+**Applications & systems:** `Electron` · `Node.js` · `Bun` · `Windows` · `Linux` · `WSL2` · `Git`
 
-**Desktop & systems:** `Electron` · `Bun` · `Windows` · `Linux` · `WSL2` · `Git`
+**AI & tooling:** `AI Harnesses` · `Agents` · `MCP` · `Model Inference` · `Memory` · `Automation`
 
-**AI & tooling:** `Agent orchestration` · `Inference APIs` · `MCP` · `Automation` · `Memory systems` · `Reverse engineering`
+**Research & creative:** `Reverse Engineering` · `Interoperability` · `UI/UX` · `Gaming` · `Modding`
 
-**Creative development:** `UI/UX` · `Gaming` · `Modding` · `Interactive experiences`
+### Currently exploring
 
-### What we're working toward
-
-- Refining **MazzAI's desktop experience** and visual language.
-- Improving the clarity of **agent coordination, session observability and memory**.
-- Exploring **model integration, local-first workflows and practical automation**.
-- Researching **software interoperability, reverse engineering and developer tools**.
-- Building and experimenting with **gaming and modding utilities**.
-
----
+- Building and refining the **MazzAI harness, desktop experience and agentic UX**.
+- Improving **agent coordination, workflow observability, memory and tool integrations**.
+- Researching **software architecture, reverse engineering and interoperability**.
+- Experimenting with **automation, local-first systems, gaming tools and mods**.
 
 <div align="center">
 
-<sub>Private-first development · Selected public showcases · Built by the Mzz Labs team</sub>
-
-<sub>© Mzz Labs</sub>
+<sub>Private-first development · Selected public previews · Mzz Labs</sub>
 
 </div>
