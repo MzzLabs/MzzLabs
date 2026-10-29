@@ -1,4 +1,4 @@
-<!-- Mzz Labs GitHub Profile V8: English and French complete views in one README. -->
+<!-- Mzz Labs GitHub Profile V9: English and French complete views in one README. -->
 <!-- Native exclusive details groups, if GitHub preserves the grouping attribute. -->
 
 <details name="mzz-profile-language" open>
@@ -19,7 +19,7 @@
 
 **Mzz Labs** is an independent development team exploring and creating software at the intersection of **artificial intelligence, software engineering, technical research and creative technology**.
 
-We combine experimentation with practical product development: understanding systems deeply, connecting complementary technologies and turning ambitious ideas into usable, well-designed tools. Our work spans **agentic workflows, automation, full-stack and desktop engineering, reverse engineering, gaming and modding**, with close attention to the details beneath the interface. **AI agents also contribute across Mzz Labs projects**, supporting research, coding, debugging and repetitive workflows alongside human-directed development.
+We connect hands-on research with practical product engineering: exploring how systems work, bringing technologies together and turning ambitious ideas into useful, carefully designed tools. Our work spans **agentic AI, inference and model tooling, automation, full-stack and desktop applications, reverse engineering, gaming and modding**. We care equally about capable software and interfaces people can understand. **AI agents assist across Mzz Labs projects**, supporting research, coding, debugging and repetitive workflows under human direction.
 
 Many of our projects remain **private**. This profile shares our direction and selected product previews without exposing proprietary code or internal implementation details.
 
@@ -27,10 +27,10 @@ Many of our projects remain **private**. This profile shares our direction and s
 
 | Focus | What we work with |
 |:--|:--|
-| **Artificial intelligence** | AI harnesses, autonomous agents, orchestration, inference, deep learning, persistent context |
+| **Artificial intelligence** | AI harnesses, autonomous agents, orchestration, multi-provider inference, transformer models, deep learning and persistent context |
 | **Software engineering** | Desktop and web apps, APIs, development tooling, architecture, UI/UX |
 | **Reverse engineering** | Software internals, interoperability, compatibility analysis and systems research |
-| **Automation & systems** | Python utilities, tool integrations, browser workflows, Windows, Linux and WSL2 |
+| **Automation & systems** | Python tooling, integrations, browser workflows, Windows, Linux, WSL2 and GPU-oriented experimentation |
 | **Gaming & modding** | Game tools, mods, experimentation and interactive experiences |
 
 ## Featured project · MazzAI
@@ -59,10 +59,12 @@ The aim is to make the entire AI workflow feel like one coherent environment: fr
 | **Agents & sub-agents** | Delegation, nested tasks, multiple sessions, specialized agents and coordination between workflows. |
 | **Session observability** | Agent activity tracking, execution visibility and a hierarchical visualization of sessions and delegations under development. |
 | **Advanced permissions** | Granular tool approvals, supervised execution and configurable permission boundaries. |
-| **Multi-provider inference** | Model/provider selection and integrations spanning hosted and locally run models where supported. |
+| **Multi-provider inference** | Selection of hosted model APIs and compatible local runtimes, with interest in NVIDIA GPU acceleration, CUDA, Transformer-based tooling and model serving. Availability depends on the chosen provider and backend. |
 | **Memory & context** | Conversation memory, cross-session continuity and customizable persistent context and knowledge. |
-| **Developer tooling** | Terminal, browser, automation, MCP, computer-use capabilities and Windows/Linux development integrations. |
+| **Developer tooling** | Terminal, browser, automation, MCP, computer-use capabilities and development workflows spanning Windows, Linux and WSL2. |
 | **Local-first & connected** | A local-first workspace with connected services and hybrid/cloud workflows as an evolving direction. |
+
+<sub>**Inference & compute:** Mzz Labs also explores local-model workflows using **Windows 11, Linux/WSL2, NVIDIA GPUs, CUDA and the Hugging Face Transformers ecosystem**, alongside hosted providers. These are technical focus areas; this does not imply every runtime or acceleration path is built into MazzAI today.</sub>
 
 ### Mobile ecosystem · Roadmap
 
@@ -101,7 +103,7 @@ MazzAI's long-term vision extends beyond desktop, with **Android and iOS compani
 <img src="https://img.shields.io/badge/APIs-45566F?style=for-the-badge" alt="APIs" height="27" />
 <img src="https://img.shields.io/badge/Automation-7A4865?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="Automation" height="27" />
 </p>
-<h4>AI &amp; agentic systems</h4>
+<h4>AI, inference &amp; agentic systems</h4>
 <p align="left">
 <img src="https://img.shields.io/badge/AI%20Harness-862D42?style=for-the-badge" alt="AI Harness" height="27" />
 <img src="https://img.shields.io/badge/Agents-A14C35?style=for-the-badge" alt="Agents" height="27" />
@@ -110,7 +112,11 @@ MazzAI's long-term vision extends beyond desktop, with **Android and iOS compani
 <img src="https://img.shields.io/badge/Memory-7B4B7C?style=for-the-badge" alt="Memory" height="27" />
 <img src="https://img.shields.io/badge/Deep%20Learning-4E3C86?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="Deep Learning" height="27" />
 <img src="https://img.shields.io/badge/Ollama-383838?style=for-the-badge&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="27" />
-<img src="https://img.shields.io/badge/NVIDIA%20CUDA-427820?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA CUDA" height="27" />
+<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA" height="27" />
+<img src="https://img.shields.io/badge/CUDA-427820?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="CUDA" height="27" />
+<img src="https://img.shields.io/badge/Transformers-E6A93A?style=for-the-badge&amp;logo=huggingface&amp;logoColor=111111" alt="Hugging Face Transformers" height="27" />
+<img src="https://img.shields.io/badge/PyTorch-AC492E?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="27" />
+<img src="https://img.shields.io/badge/Local%20Models-4F637E?style=for-the-badge" alt="Local Models" height="27" />
 </p>
 <h4>Systems &amp; creative</h4>
 <p align="left">
@@ -168,7 +174,7 @@ MazzAI's long-term vision extends beyond desktop, with **Android and iOS compani
 
 **Mzz Labs** est une équipe de développement indépendante qui conçoit des logiciels à la rencontre de **l'intelligence artificielle, de l'ingénierie logicielle, de la recherche technique et de la création numérique**.
 
-Nous associons l'expérimentation au développement concret : comprendre les systèmes en profondeur, relier des technologies complémentaires et transformer des idées ambitieuses en outils utiles et bien conçus. Notre travail englobe **les systèmes agentiques, l'automatisation, les applications web et desktop, la rétro-ingénierie, les jeux vidéo et le modding**. **Des agents IA participent aux projets Mzz Labs**, sous notre direction, pour la recherche, le développement, le débogage et l'automatisation de tâches.
+Nous relions recherche technique et développement concret : explorer le fonctionnement des systèmes, associer des technologies complémentaires et transformer des idées ambitieuses en outils utiles, avec une interface soignée. Nos travaux couvrent **l’IA agentique, l’inférence et les outils de modèles, l’automatisation, les applications web et desktop, la rétro-ingénierie, le jeu vidéo et le modding**. Nous accordons autant d’importance aux capacités des logiciels qu’à leur simplicité d’utilisation. **Des agents IA contribuent aux projets Mzz Labs**, sous supervision humaine, pour la recherche, le code, le débogage et les tâches répétitives.
 
 La plupart de nos projets restent **privés**. Ce profil présente notre vision et quelques aperçus, sans exposer les codes sources ou les détails internes.
 
@@ -176,10 +182,10 @@ La plupart de nos projets restent **privés**. Ce profil présente notre vision 
 
 | Domaine | Ce que nous développons et étudions |
 |:--|:--|
-| **Intelligence artificielle** | Harness IA, agents autonomes, orchestration, inférence, apprentissage profond, mémoire et contexte persistants |
+| **Intelligence artificielle** | Harness IA, agents autonomes, orchestration, inférence multi-fournisseurs, modèles Transformers, apprentissage profond et contexte persistant |
 | **Ingénierie logicielle** | Applications desktop et web, API, outils de développement, architecture, UI/UX |
 | **Rétro-ingénierie** | Fonctionnement interne des logiciels, interopérabilité, compatibilité et recherche sur les systèmes |
-| **Automatisation et systèmes** | Outils Python, intégrations, automatisation du navigateur, Windows, Linux et WSL2 |
+| **Automatisation et systèmes** | Outils Python, intégrations, automatisation du navigateur, Windows, Linux, WSL2 et expérimentations sur GPU |
 | **Jeux vidéo et modding** | Outils liés aux jeux, mods, expérimentations et expériences interactives |
 
 ## Projet vedette · MazzAI
@@ -208,10 +214,12 @@ Nous voulons réunir le parcours complet de l'IA dans un même environnement : c
 | **Agents et sous-agents** | Délégation, tâches imbriquées, sessions multiples, agents spécialisés et coordination des workflows. |
 | **Observabilité des sessions** | Suivi de l'activité agentique, visibilité sur l'exécution et visualisation hiérarchique des sessions et délégations en développement. |
 | **Permissions avancées** | Autorisations granulaires des outils, exécution supervisée et limites de permission configurables. |
-| **Inférence multi-fournisseurs** | Choix de fournisseurs et de modèles, avec intégrations hébergées ou locales lorsqu'elles sont disponibles. |
+| **Inférence multi-fournisseurs** | Sélection d’API de modèles hébergés et de moteurs locaux compatibles, avec un intérêt pour l’accélération GPU NVIDIA, CUDA, les outils Transformers et le déploiement de modèles. Les possibilités dépendent du fournisseur et du moteur. |
 | **Mémoire et contexte** | Mémoire des conversations, continuité entre sessions, connaissances et contexte persistant personnalisables. |
-| **Outils de développement** | Terminal, navigateur, automatisation, MCP, Computer Use et intégrations Windows/Linux. |
+| **Outils de développement** | Terminal, navigateur, automatisation, MCP, Computer Use et workflows de développement sur Windows, Linux et WSL2. |
 | **Priorité au local et connectivité** | Environnement local-first complété progressivement par des services connectés et des workflows hybrides ou cloud. |
+
+<sub>**Inférence et calcul :** Mzz Labs explore également les modèles locaux avec **Windows 11, Linux/WSL2, les GPU NVIDIA, CUDA et l’écosystème Hugging Face Transformers**, en complément des fournisseurs hébergés. Ce sont des domaines techniques étudiés ; cela ne signifie pas que tous les moteurs et modes d’accélération sont déjà intégrés à MazzAI.</sub>
 
 ### Écosystème mobile · Feuille de route
 
@@ -250,7 +258,7 @@ Nous voulons réunir le parcours complet de l'IA dans un même environnement : c
 <img src="https://img.shields.io/badge/API-45566F?style=for-the-badge" alt="APIs" height="27" />
 <img src="https://img.shields.io/badge/Automatisation-7A4865?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="Automatisation" height="27" />
 </p>
-<h4>IA et systèmes agentiques</h4>
+<h4>IA, inférence et systèmes agentiques</h4>
 <p align="left">
 <img src="https://img.shields.io/badge/Harness%20IA-862D42?style=for-the-badge" alt="Harness IA" height="27" />
 <img src="https://img.shields.io/badge/Agents-A14C35?style=for-the-badge" alt="Agents" height="27" />
@@ -259,7 +267,11 @@ Nous voulons réunir le parcours complet de l'IA dans un même environnement : c
 <img src="https://img.shields.io/badge/Mémoire-7B4B7C?style=for-the-badge" alt="Mémoire" height="27" />
 <img src="https://img.shields.io/badge/Apprentissage%20profond-4E3C86?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="Apprentissage profond" height="27" />
 <img src="https://img.shields.io/badge/Ollama-383838?style=for-the-badge&amp;logo=ollama&amp;logoColor=white" alt="Ollama" height="27" />
-<img src="https://img.shields.io/badge/NVIDIA%20CUDA-427820?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA CUDA" height="27" />
+<img src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="NVIDIA" height="27" />
+<img src="https://img.shields.io/badge/CUDA-427820?style=for-the-badge&amp;logo=nvidia&amp;logoColor=white" alt="CUDA" height="27" />
+<img src="https://img.shields.io/badge/Transformers-E6A93A?style=for-the-badge&amp;logo=huggingface&amp;logoColor=111111" alt="Hugging Face Transformers" height="27" />
+<img src="https://img.shields.io/badge/PyTorch-AC492E?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch" height="27" />
+<img src="https://img.shields.io/badge/Mod%C3%A8les%20locaux-4F637E?style=for-the-badge" alt="Modèles locaux" height="27" />
 </p>
 <h4>Systèmes et création</h4>
 <p align="left">
