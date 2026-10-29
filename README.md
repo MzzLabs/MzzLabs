@@ -1,7 +1,7 @@
 <!-- Mzz Labs GitHub profile. English by default, French expands in-place. -->
 <div align="center">
 
-<img src="./assets/mzzlabs-wordmark-v4.gif" width="92%" alt="Mzz Labs, independent development team. Transparent looping typewriter animation." />
+<img src="./assets/mzzlabs-wordmark-v5.gif" width="92%" alt="Mzz Labs, independent development team. Transparent looping typewriter animation." />
 
 **Independent development team · AI engineering · Creative software**
 
@@ -34,7 +34,7 @@ La plupart de nos projets restent privés. Nous présentons ici notre orientatio
 
 <div align="center">
 
-<img src="./assets/mazzai-feature-v4.gif" width="96%" alt="MazzAI, animation transparente avec son icône blanche et les piliers Harness, Chat, Agents, Inference, Memory, Cloud et Tooling." />
+<img src="./assets/mazzai-feature-v5.gif" width="96%" alt="MazzAI, animation transparente avec son icône blanche et les piliers Harness, Chat, Agents, Inference, Memory, Cloud et Tooling." />
 
 **Écosystème IA centré sur le Harness · Application desktop · Développement privé**
 
@@ -82,6 +82,11 @@ MazzAI associe un **espace de conversation** à un **mode agentique doté d'outi
 
 **Recherche et création :** `Reverse Engineering` · `Interoperability` · `UI/UX` · `Gaming` · `Modding`
 
+
+### Activité GitHub et technologies
+
+Les graphiques placés à la fin de cette présentation montrent un **instantané des contributions du 29 octobre 2026** ainsi qu'une représentation **illustrative** de nos domaines d'intérêt. L'animation du serpent peut être actualisée automatiquement à partir du calendrier public GitHub.
+
 <sub>Développement principalement privé · Présentations publiques sélectionnées · Équipe Mzz Labs</sub>
 
 </details>
@@ -108,7 +113,7 @@ Most of our projects are private. Here, we share our direction, selected preview
 
 <div align="center">
 
-<img src="./assets/mazzai-feature-v4.gif" width="96%" alt="MazzAI: transparent looping animation featuring the white icon and Harness, Chat, Agents, Inference, Memory, Cloud and Tooling." />
+<img src="./assets/mazzai-feature-v5.gif" width="96%" alt="MazzAI: transparent looping animation featuring the white icon and Harness, Chat, Agents, Inference, Memory, Cloud and Tooling." />
 
 **Harness-first AI ecosystem · Desktop workspace · Private development**
 
@@ -161,5 +166,36 @@ We use a combination of technologies depending on the task, from research and pr
 <div align="center">
 
 <sub>Private-first development · Selected public previews · Mzz Labs</sub>
+
+</div>
+
+
+## GitHub activity
+
+<div align="center">
+
+<img src="./assets/stats-activity.png" width="95%" alt="Mzz Labs GitHub activity snapshot: 268 contributions in the preceding year, with approximately 98% commits, 1% issues and 1% pull requests. Data from 29 October 2026." />
+
+<sub>Activity snapshot from the GitHub profile on 29 October 2026. This is not a live statistics feed. Private repositories and work outside GitHub are not fully represented.</sub>
+
+</div>
+
+### Technology focus
+
+<div align="center">
+
+<img src="./assets/stats-focus.png" width="95%" alt="Illustrative relative focus across AI, TypeScript and React, Python and automation, systems engineering, and gaming/modding. These are not measured GitHub language statistics." />
+
+<sub>Illustrative focus mix for presentation only — not measured repository languages or actual usage shares.</sub>
+
+</div>
+
+### Contribution snake
+
+<div align="center">
+
+<img src="./assets/contribution-snake.gif" width="98%" alt="Animated snake moving through Mzz Labs contribution calendar. Starts from a screenshot snapshot; can be regenerated daily from GitHub activity." />
+
+<sub>The included GIF initially represents the visible calendar captured on 29 October 2026. Optional GitHub Actions workflow refreshes it from the actual current contribution graph.</sub>
 
 </div>
