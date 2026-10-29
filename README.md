@@ -1,4 +1,4 @@
-<!-- Mzz Labs GitHub profile V6: GitHub-compatible HTML/Markdown, SVG snake and live stats. -->
+<!-- Mzz Labs GitHub profile V7: bilingual product overview, GitHub-compatible HTML/Markdown, SVG snake and live stats. -->
 <div align="center">
   <img src="./assets/mzzlabs-wordmark.gif" width="92%" alt="Mzz Labs — independent development team. Transparent animated typewriter wordmark." />
   <p><strong>Independent development team · AI engineering · Creative software</strong></p>
@@ -16,35 +16,41 @@
 
 ### Mzz Labs
 
-**Mzz Labs** est une équipe de développement indépendante qui explore et conçoit des logiciels à la croisée de **l'intelligence artificielle, de l'ingénierie logicielle, de la recherche technique et des expériences numériques**.
+**Mzz Labs** est une équipe de développement indépendante qui imagine et construit des outils à la croisée de **l'intelligence artificielle, de l'ingénierie logicielle, de la recherche technique et des expériences numériques**.
 
-Nos principaux domaines d'intérêt : **harness IA, agents autonomes, orchestration, inférence, deep learning, développement web et desktop, rétro-ingénierie, automatisation, gaming et modding**. Nous accordons autant d'importance à la compréhension des systèmes et à leur architecture qu'au design de produits simples à utiliser.
+Nous travaillons sur les **harness IA**, les agents et sous-agents, l'orchestration, l'inférence, le deep learning, les applications web et desktop, la rétro-ingénierie, l'automatisation, le gaming et le modding. Notre démarche associe développement, UI/UX et exploration des systèmes. **Des agents IA participent également aux travaux de Mzz Labs**, notamment pour la recherche, la programmation et l'automatisation de tâches.
 
-La plupart de nos travaux restent **privés**. Nous partageons ici notre démarche et une sélection d'aperçus, sans exposer le code ou l'architecture interne de nos projets.
+La plupart de nos projets restent **privés**. Nous présentons ici leur orientation et des aperçus sélectionnés, sans publier leurs sources internes.
 
-### Projet vedette — MazzAI
+### MazzAI · Projet principal
 
-**MazzAI** est notre **harness IA et espace de travail desktop**, conçu pour réunir des conversations naturelles, des agents spécialisés, l'inférence de modèles, la mémoire persistante et des outils de développement.
+**MazzAI** est un **harness IA** et un espace de travail desktop en développement privé. Sa base technique dérive du **code source open source et de l'architecture agentique d'[OpenCode](https://github.com/anomalyco/opencode)**, profondément adaptés et enrichis par nos **composants, nos fonctionnalités, notre interface et notre vision produit**. Nous nous inspirons aussi de l'expérience de développement agentique de **Claude Code** et **OpenAI Codex**, tout en développant une identité et un fonctionnement propres à MazzAI. MazzAI est un projet indépendant, sans affiliation officielle avec ces produits.
 
-| Pilier | Objectif |
+Le but n'est pas seulement de discuter avec une IA : MazzAI réunit **conversation, exécution agentique, outils, orchestration et continuité du contexte** au sein d'une même application. Son interface privilégie une expérience structurée et lisible, avec des réponses riches inspirées des interfaces conversationnelles modernes.
+
+| Domaine | Ce que MazzAI rassemble |
 |:--|:--|
-| **Harness** | Environnement central de coordination, d'exécution et d'orchestration des workflows IA |
-| **Chat** | Conversations et assistance contextuelle |
-| **Agents** | Délégation, sous-agents et exécution multi-session |
-| **Inference** | Intégration de modèles et de fournisseurs d'IA |
-| **Memory** | Continuité contextuelle, mémoire et réutilisation des connaissances |
-| **Cloud** | Possibilités d'intégrations connectées et hybrides |
-| **Tooling** | Terminal, navigateur, automatisation et outils extensibles |
+| **Harness & exécution** | Socle agentique adapté d'OpenCode, orchestration des tâches et des outils, extensions propres à MazzAI. |
+| **Modes de travail** | **Chat** conversationnel, **Agent / Auto** pour l'exécution outillée, **Build** pour les changements et **Plan** pour l'analyse et la planification. |
+| **Interface enrichie** | Présentation des réponses avec structure, cartes, icônes et retours d'outils, dans un esprit proche des interfaces de chat modernes. |
+| **Agents & observabilité** | Agents principaux, sous-agents, délégation, sessions multiples, suivi d'exécution et visualisation hiérarchique des workflows. |
+| **Permissions** | Contrôle granulaire des outils, autorisations et exécution supervisée. |
+| **Modèles & inférence** | Plusieurs fournisseurs et modèles, avec une orientation vers les options hébergées ou locales selon les intégrations disponibles. |
+| **Mémoire & contexte** | Mémoire de conversation, continuité entre sessions et contexte persistant personnalisable. |
+| **Tooling** | Terminal, navigateur, automatisations, MCP et connexions aux environnements de développement et au système. |
+| **Cloud & connectivité** | Extensions connectées et scénarios hybrides envisagés autour de l'environnement local-first. |
 
-Le projet adopte une approche **local-first**, avec des modes conversationnel et agentique. L'interface vise à rendre l'orchestration et les opérations complexes plus accessibles. Certaines capacités sont encore expérimentales ou prévues : cette page ne représente pas une liste exhaustive de fonctionnalités publiquement disponibles.
+**Applications mobiles — feuille de route :** des clients **Android** et **iOS** sont envisagés pour prolonger l'écosystème MazzAI. La distribution iOS en dehors de l'App Store, notamment par *sideloading* avec **SideStore**, fait partie des pistes étudiées ; aucune application mobile publique ni compatibilité finale n'est annoncée à ce stade.
 
-### Technologie et compétences
+**État du produit :** l'application desktop est en développement privé. Certaines capacités sont utilisables ou en cours d'intégration, tandis que d'autres — notamment la visualisation avancée, des intégrations cloud et le mobile — appartiennent encore à la feuille de route. **La capture réelle de MazzAI Desktop est présentée plus bas.**
 
-Notre stack s'étend de **Python, TypeScript, React, Node.js, Bun et Electron** aux outils d'intégration, systèmes **Windows/Linux/WSL2**, à l'IA et aux techniques de **rétro-ingénierie**. Les badges ci-dessous représentent les outils et domaines d'intérêt de l'équipe, **pas une mesure de leur fréquence d'utilisation**.
+### Technologies
 
-### Statistiques et contributions
+Nos outils incluent **Python, TypeScript, React, SolidJS, Node.js, Bun, Electron, Windows, Linux et WSL2**, ainsi que les technologies d'IA et de rétro-ingénierie. Les badges ci-dessous présentent une stack et des domaines d'intérêt, et **non des pourcentages d'utilisation mesurés**.
 
-Les cartes situées plus bas chargent des données GitHub publiques via des services tiers ; elles peuvent être partielles, temporairement indisponibles ou décalées à cause du cache. Le **serpent animé en SVG** est généré depuis le calendrier de contributions et peut être mis à jour par GitHub Actions.
+### Statistiques GitHub
+
+Les cartes publiques s'appuient sur des services tiers, avec d'éventuelles limites de cache ou de disponibilité. Le serpent animé SVG peut être régénéré depuis les contributions publiques par GitHub Actions.
 
 </details>
 
@@ -53,7 +59,7 @@ Les cartes situées plus bas chargent des données GitHub publiques via des serv
 
 **Mzz Labs** is an independent development team exploring and creating software at the intersection of **artificial intelligence, software engineering, technical research and creative technology**.
 
-We combine experimentation with practical product development: understanding systems deeply, connecting complementary technologies and turning ambitious ideas into usable, well-designed tools. Our work spans **agentic workflows, automation, full-stack and desktop engineering, reverse engineering, gaming and modding**, with close attention to the details beneath the interface.
+We combine experimentation with practical product development: understanding systems deeply, connecting complementary technologies and turning ambitious ideas into usable, well-designed tools. Our work spans **agentic workflows, automation, full-stack and desktop engineering, reverse engineering, gaming and modding**, with close attention to the details beneath the interface. **AI agents also contribute across Mzz Labs projects**, supporting research, coding, debugging and repetitive workflows alongside human-directed development.
 
 Many of our projects remain **private**. This profile shares our direction and selected product previews without exposing proprietary code or internal implementation details.
 
@@ -71,40 +77,46 @@ Many of our projects remain **private**. This profile shares our direction and s
 ## Featured project · MazzAI
 
 <div align="center">
-  <img src="./assets/mazzai-feature.gif" width="95%" alt="MazzAI: white terminal symbol, animated wordmark and Harness, Chat, Agents, Inference, Memory, Cloud, Tooling." />
+  <img src="./assets/mazzai-feature.gif" width="95%" alt="Animated MazzAI white terminal symbol and typewriter title. Harness, Chat, Agents, Inference, Memory, Cloud and Tooling." />
   <p><strong>Harness-first AI ecosystem · Desktop workspace · Private development</strong></p>
 </div>
 
-**MazzAI** is our evolving **AI harness and desktop workspace**. It brings conversational assistance, specialized agents, model inference, persistent memory and developer tooling into one coherent experience.
+### Built on OpenCode. Designed with our own vision.
 
-Its ambition goes beyond a chat interface: it connects **conversation, agent delegation, tool execution and context continuity** through a workflow designed to stay understandable and usable. MazzAI takes a **local-first** approach while leaving room for connected and hybrid integrations.
+**MazzAI** is an independently developed **AI harness and desktop workspace** built on a customized foundation derived from the open-source **[OpenCode](https://github.com/anomalyco/opencode) codebase and agent architecture**. Rather than simply reskinning an existing tool, Mzz Labs is adapting and extending the foundation with its **own application components, interface, workflows and product direction**.
 
-<details>
-<summary><strong>Explore the MazzAI ecosystem</strong></summary>
+Our approach also draws inspiration from the agentic developer experience of **Claude Code** and **OpenAI Codex**. These are inspirations, not affiliations or endorsements: **MazzAI is an independent project** with its own design language and goals.
 
-| Pillar | Role |
+The aim is to make the entire AI workflow feel like one coherent environment: from a natural conversation to supervised tool use, multi-agent execution, persistent context and developer-oriented automation. The UI draws on modern, structured chat experiences, with richer responses, icons, visual elements and clear tool feedback.
+
+### Inside the MazzAI ecosystem
+
+| System | Capabilities and direction |
 |:--|:--|
-| **Harness** | The core coordinating AI capabilities, execution and workflows |
-| **Chat** | Natural conversations and contextual assistance |
-| **Agents** | Specialized sub-agents, delegation and multi-session orchestration |
-| **Inference** | Model/provider integrations and flexible inference options |
-| **Memory** | Persistent context and continuity across work sessions |
-| **Cloud** | Connected services and remote or hybrid workflow possibilities |
-| **Tooling** | Browser, terminal, automation and extensible developer integrations |
+| **Harness & runtime** | OpenCode-derived agentic foundation, adapted execution flow, task coordination and MazzAI-specific extensions. |
+| **Chat, Agent & Auto** | A dedicated conversational mode alongside tool-enabled agentic sessions and automated workflows. |
+| **Build & Plan** | Task execution and implementation workflows, plus analysis, planning and review before changes. |
+| **Rich conversational UI** | Structured responses, icons, visual components, tool feedback and a modern ChatGPT-inspired interaction model. |
+| **Agents & sub-agents** | Delegation, nested tasks, multiple sessions, specialized agents and coordination between workflows. |
+| **Session observability** | Agent activity tracking, execution visibility and a hierarchical visualization of sessions and delegations under development. |
+| **Advanced permissions** | Granular tool approvals, supervised execution and configurable permission boundaries. |
+| **Multi-provider inference** | Model/provider selection and integrations spanning hosted and locally run models where supported. |
+| **Memory & context** | Conversation memory, cross-session continuity and customizable persistent context and knowledge. |
+| **Developer tooling** | Terminal, browser, automation, MCP, computer-use capabilities and Windows/Linux development integrations. |
+| **Local-first & connected** | A local-first workspace with connected services and hybrid/cloud workflows as an evolving direction. |
 
-</details>
+### Mobile ecosystem · Roadmap
 
-MazzAI combines a **conversational workspace** with a **tool-enabled agentic mode**. Work also includes session navigation, visibility into agent activity, memory, integrations and a desktop UI suited to complex workflows. Some features remain experimental or planned; this is a project overview, **not a claim of public feature availability**.
+MazzAI's long-term vision extends beyond desktop, with **Android and iOS companion applications** planned to connect to the wider workspace. For iOS, distribution through **sideloading tools such as SideStore** is being explored, rather than treated as an already shipping feature. **There is no public mobile release or guaranteed distribution method yet.**
 
-<details>
-<summary><strong>Desktop preview · View MazzAI Code interface</strong></summary>
+<sub>**Development status:** MazzAI Desktop is in private development. Some features are usable or actively being integrated; others — especially advanced orchestration visualizations, selected cloud integrations and the mobile clients — are still in progress or planned. This is an ecosystem overview, not a public release feature checklist.</sub>
+
+### Desktop preview · MazzAI Code
 
 <div align="center">
-  <img src="./assets/mazzai-desktop.png" width="100%" alt="Actual MazzAI Code desktop app: dark UI, session list and chat workspace." />
-  <p><sub>Actual desktop interface · Work in progress · Appearance and capabilities may evolve.</sub></p>
+  <img src="./assets/mazzai-desktop.png" width="96%" alt="Real MazzAI Code desktop application screenshot: dark theme, left navigation with sessions and central conversational workspace." />
+  <p><sub>Real MazzAI desktop interface · Private work in progress · Design and features may evolve.</sub></p>
 </div>
-
-</details>
 
 
 ## Stack · full volume
